@@ -1,4 +1,7 @@
 /* your code here */
-.h2 {display:none;
-
+.h2 {
+	display: none;
+}
+#myUL {
+	border-inline-start: 1px;
 }
