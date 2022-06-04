@@ -1,7 +1,11 @@
 /* your code here */
-.h2 {
+/* .h2 {
 	display: none;
-}
+} */
 #myUL {
-	border-inline-start: 1px;
+	display: inline-flex;
+	list-style-type: none;
+}
+.box {
+	display: block;
 }

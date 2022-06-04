@@ -1,1 +1,8 @@
-body{background:blue;}
+body {
+	background: blue;
+}
+.boxcontent {
+	background-color: lightgray;
+	width: 400px;
+	margin-left: 32%;
+}
