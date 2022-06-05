@@ -1,7 +1,14 @@
 body {
 	margin: 0;
 	display: flex;
-	flex-wrap: nowrap;
+}
+.allmenu {
+	display: flex;
+	width: 100%;
+}
+div {
+	float: left;
+	width: 450px;
 }
 #sectionA {
 	background: blue;
