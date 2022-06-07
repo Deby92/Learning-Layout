@@ -1,10 +1,4 @@
-/* * {
-	display: flex;
-	position: absolute;
-	align-items: flex-start;
-} */
 .calendar {
-	position: absolute;
 	top: 0em;
 	left: 1em;
 	padding-top: 5px;
@@ -13,12 +7,13 @@
 	font-size: 54px;
 	text-align: center;
 	color: #000;
-	align-items: flex-start;
+
 	border-radius: 3px;
-	float: left;
+	position: absolute;
 }
 
 .calendar em {
+	display: block;
 	font-size: 15px;
 	color: #fff;
 	background: #04599a;
@@ -31,13 +26,13 @@
 	content: "";
 	position: absolute;
 	float: left;
+	top: 5px;
 	width: 8px;
 	height: 8px;
 	background: #111;
 	z-index: 1;
 	border-radius: 10px;
 	box-shadow: 0 1px 1px #fff;
-	align-items: flex-start;
 }
 .calendar:before {
 	left: 11px;
@@ -50,19 +45,16 @@
 .calendar em:after {
 	content: "";
 	position: absolute;
+	top: -5px;
 	float: left;
-	margin: 10px;
 	width: 4px;
 	height: 14px;
-	background: blue;
+	background: grey;
 	z-index: 2;
-	border-radius: 3px;
-	align-items: flex-start;
 }
 .calendar em:before {
 	left: 13px;
 }
 .calendar em:after {
 	right: 13px;
-	flex-wrap: nowrap;
 }
